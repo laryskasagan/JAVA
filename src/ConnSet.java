@@ -8,7 +8,7 @@ public class ConnectionSet {
         Connection conn = null;
         try{
             Class.forName("org.postgresql.Driver");
-            conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/registerdb","larysasagan","haNIA03");
+            conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/registerdb","larysasagan","*******");
             if(conn != null){
                 System.out.println("Connection established");
             }
